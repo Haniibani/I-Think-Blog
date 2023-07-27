@@ -1,0 +1,1 @@
+web: gunicorn hannas-blog-app.wsgi
