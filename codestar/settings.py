@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["hannas-blog-app.herokuapp.com", "localhost", "8000-haniibani-ithinkblog-tkzifflcsmp.ws-eu102.gitpod.io"]
+ALLOWED_HOSTS = ["hannas-blog-app-5b02799bac7f.herokuapp.com"]
 
 
 # Application definition
@@ -131,7 +131,7 @@ USE_TZ = True
 
 MEDIA_URL = '/media/'
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
- 
+
 STATIC_URL = '/static/'
 STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
 
