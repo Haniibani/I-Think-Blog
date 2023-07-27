@@ -1,1 +1,1 @@
-web: gunicorn hannas-blog-app.wsgi
+web: gunicorn codestar.wsgi
